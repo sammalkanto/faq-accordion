@@ -1,0 +1,48 @@
+
+
+@media (max-width: 1000px) {
+    .media {
+        .desktop {
+            visibility: hidden;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .media {
+        .mobile {
+            visibility: hidden;
+        }
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    #root {
+        padding: 160px 16px 64px;
+        background: none;
+        height: auto;
+    }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+        width: 340px;
+
+        .media {
+            width: auto;
+            height: 100px;
+        }
+
+        .content {
+            width: auto;
+            padding: 32px;
+
+            .title {
+                text-align: center;
+            }
+        }
+    }
+}
+
